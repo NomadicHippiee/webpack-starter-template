@@ -12,6 +12,7 @@ Then in the terminal:
 
 npm install     ← Install dependencies
 npx eslint src/ ← Check your code with ESlint
+npx prettier -write src/ ← Run Prettier 
 npm run dev     ← development with auto refresh
 npm run build   ← production files
 
