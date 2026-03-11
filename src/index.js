@@ -1,11 +1,11 @@
-import './style.css';
+import "./style.css";
 
 console.log("Webpack is alive!");
 
 function component() {
-  const element = document.createElement('div');
-  element.textContent = 'Hello, Webpack Starter Template!';
-  element.classList.add('starter-template');
+  const element = document.createElement("div");
+  element.textContent = "Hello, Webpack Starter Template!";
+  element.classList.add("starter-template");
   return element;
 }
 
